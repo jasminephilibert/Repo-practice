@@ -1,0 +1,56 @@
+h1{
+    color:aquamarine
+}
+body{
+    font-size: .8em; color: blueviolet;
+}
+h2{
+    color: lavender;
+}
+h3{
+    color: rgb(51, 51, 186);
+}
+#div1 {
+    color: rgb(101, 29, 29);
+
+}
+#div2 {
+    color: rgb(184, 138, 81);
+}
+#div1, #div2 {border: dashed;}
+
+form{
+    padding: 15px;
+    background-color: pink;
+    border-style: solid;
+}
+input [type=button] {
+    color:black
+    background-color blueviolet;
+    padding: 5px; }
+
+button.flat {
+
+    background: #e0e0e0;
+    cursor: pointer;
+    border: 0;
+    padding: .4em .8em;
+    font-size: inherit;
+    font-weight: 300;
+    color: inherit
+}
+
+    button.flat:hover,
+    button.flat.hover {
+        background: #7a3a3a
+    }
+ .relative1 {
+        position: relative;
+      }
+      .relative2 {
+        position: relative;
+        top: -20px;
+        left: 20px;
+        background-color: white;
+        width: 500px;
+      }
